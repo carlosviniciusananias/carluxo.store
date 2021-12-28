@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-store-button]{
+    @apply rounded-md bg-primary-300 text-primary-800;
+}
