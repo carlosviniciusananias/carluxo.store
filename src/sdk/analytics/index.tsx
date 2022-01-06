@@ -1,6 +1,12 @@
 import { useAnalyticsEvent } from '@faststore/sdk'
 import type { PropsWithChildren } from 'react'
 
+declare global {
+  interface Window {
+    dataLayer: any
+  }
+}
+
 if (typeof window !== 'undefined') {
   window.dataLayer = window.dataLayer ?? []
 }

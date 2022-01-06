@@ -4,7 +4,7 @@ module.exports = {
 
   // Platform specific configs for API
   api: {
-    storeId: 'storeframework',
+    storeId: 'acctglobal',
     environment: 'vtexcommercestable',
   },
 
@@ -12,8 +12,8 @@ module.exports = {
   channel: '1',
 
   // Production URLs
-  storeUrl: 'https://www.vtex-base1.tk',
-  checkoutUrl: 'https://chk.vtex-base1.tk/checkout',
+  storeUrl: 'https://acctglobal.myvtex.com',
+  checkoutUrl: 'https://acctglobal.myvtex.com/checkout',
 
   // Lighthouse CI
   lighthouse: {
